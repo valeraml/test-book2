@@ -12,7 +12,12 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
+    
+    <part xml:id="part-kinematics">
+      <title>Module I, Kinematics</title>
+      <xi:include href="./ch-chapter-title.ptx" />
+      <xi:include href="./ch1.ptx"/>
+    </part>
 
 
     <!-- Include backmatter -->

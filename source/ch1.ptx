@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Chapter 1</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+Some section  <section xml:id="sec-">
+    <title>Some section</title>
+    <figure xml:id="figure-function-derivative">
+      <caption>A pendulum</caption>
+      <image width="50%" source="./images/images/pic1.jpg">
+        <shortdescription>
+        a third degree polynomial with a local max and a local min;
+        its derivative is plotted on the same axes
+        </shortdescription>
+      </image>
+    </figure>
+    
+  </section>
+
+
+</chapter>
