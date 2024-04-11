@@ -76,6 +76,30 @@ Some section  <section xml:id="sec-">
       </interactive>
     </figure>
 
+    <figure>
+      <caption>1-Dimensional Kinematics</caption>
+      <interactive xml:id="kinematics" platform="jsxgraph" aspect="6:7" source="code/kinematics.js">
+        <sidebyside width="70%" margins="15%">
+          <stack>
+            <slate xml:id="box_t" surface="jsxboard" aspect="6:1" />
+            <slate xml:id="box_s" surface="jsxboard" aspect="6:3" />
+            <slate xml:id="box_v" surface="jsxboard" aspect="6:3" />
+            <slate xml:id="box_a" surface="jsxboard" aspect="6:3" />
+          </stack>
+        </sidebyside>
+        <instructions xml:id="kinematics-instructions">
+          <p>
+            Use the time slider in the top panel to vary the time from 0 sec to 6 sec.
+            Observe how the displacement, velocity,
+            and acceleration vary with time.
+          </p>
+        </instructions>
+        <static>
+          <image source="images/kinematics.png" width="60%" />
+        </static>
+      </interactive>
+    </figure>
+
 
     
   </section>
