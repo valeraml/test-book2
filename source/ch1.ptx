@@ -8,16 +8,75 @@
   </introduction>
 
 Some section  <section xml:id="sec-">
-    <title>Some section</title>
+    <title>Some section pic1.jpg</title>
     <figure xml:id="figure-function-derivative">
       <caption>A pendulum</caption>
-      <image width="50%" source="./images/images/pic1.jpg">
+      <image width="50%" source="./images/pic1.jpg">
         <shortdescription>
         a third degree polynomial with a local max and a local min;
         its derivative is plotted on the same axes
         </shortdescription>
       </image>
     </figure>
+
+    <p> another </p>
+
+    <figure xml:id="figure-function-derivative1">
+      <caption>A pendulum simple.jpg</caption>
+      <image width="50%" source="./images/Simple_gravity_pendulum.svg">
+        <shortdescription>
+        a third degree polynomial with a local max and a local min;
+        its derivative is plotted on the same axes
+        </shortdescription>
+      </image>
+    </figure>
+
+    <figure xml:id="figure-function-derivative2">
+      <caption>A pendulum ball.svg</caption>
+      <image width="50%" source="./images/ball.svg">
+        <shortdescription>
+        a third degree polynomial with a local max and a local min;
+        its derivative is plotted on the same axes
+        </shortdescription>
+      </image>
+    </figure>
+
+    <figure xml:id="figure-function-derivative3">
+      <caption>A pendulum matter.svg</caption>
+      <image width="50%" source="./images/matter.svg">
+        <shortdescription>
+        a third degree polynomial with a local max and a local min;
+        its derivative is plotted on the same axes
+        </shortdescription>
+      </image>
+    </figure>
+
+    <p> sgv </p>
+
+    <figure>
+      <image xml:id="gaussian-histogram1">
+      <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+      </svg>
+      </image>
+    </figure>
+
+    <figure xml:id="figure-simple-eigenvector">
+      <caption>A simple eigenvector demonstration</caption>
+      <interactive xml:id="interactive-simple-eigenvector" platform="javascript" width="60%" source="code/figure.js code/simple-ev.js" preview="preview/simple-eigenvector-preview.jpg">
+        <slate xml:id="eigenvector" surface="canvas" />
+        <instructions>
+          <p>
+            Let <m>\vec{x}</m> be represented by the red arrow,
+            and <m>A\vec{x}</m> by the grey arrow,
+            for some particular <m>2\times 2</m> matrix <m>A</m>.
+            Drag the <em>tip</em> of the red arrow to see the grey arrow change.
+          </p>
+        </instructions>
+      </interactive>
+    </figure>
+
+
     
   </section>
 
