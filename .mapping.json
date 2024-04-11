@@ -1,1 +1,1 @@
-{"source/main.ptx": ["my-great-book", "part-kinematics"], "source/frontmatter.ptx": ["frontmatter"], "source/ch-chapter-title.ptx": ["ch-chapter-title"], "source/ch1.ptx": ["ch-chapter-title", "interactive-simple-eigenvector"], "source/backmatter.ptx": ["backmatter"]}
+{"source/main.ptx": ["my-great-book", "part-kinematics"], "source/frontmatter.ptx": ["frontmatter"], "source/ch-chapter-title.ptx": ["ch-chapter-title"], "source/ch1.ptx": ["ch-chapter-title", "interactive-simple-eigenvector", "kinematics"], "source/backmatter.ptx": ["backmatter"]}
