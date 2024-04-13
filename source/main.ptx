@@ -17,6 +17,7 @@
       <title>Module I, Kinematics</title>
       <xi:include href="./ch-chapter-title.ptx" />
       <xi:include href="./ch1.ptx"/>
+      <xi:include href="./ch2.ptx"/>
     </part>
 
 
